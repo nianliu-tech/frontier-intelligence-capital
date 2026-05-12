@@ -640,3 +640,22 @@ footer {
 @media (max-width: 520px) {
   .metrics-grid { grid-template-columns: 1fr; }
 }
+
+/* ─── Performance chart ───────────────────────────────────────── */
+
+.performance-chart {
+  margin: 30px 0 28px;
+  padding: 0;
+}
+.performance-chart img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+.performance-chart figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}

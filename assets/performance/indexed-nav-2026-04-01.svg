@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" role="img" aria-labelledby="title desc">
+  <title id="title">Frontier Intelligence Capital Indexed NAV</title>
+  <desc id="desc">Indexed NAV from April 1, 2026 to May 12, 2026, starting at 100 and ending at approximately 162.96.</desc>
+  <rect width="1100" height="560" fill="#ffffff"/>
+  <rect x="1" y="1" width="1098" height="558" fill="#ffffff" stroke="#d9deea"/>
+  <text x="64" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#101827">Indexed NAV</text>
+  <text x="64" y="98" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">Base 100 on Apr 1, 2026 · Preliminary / unaudited</text>
+  <text x="900" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">162.96</text>
+  <text x="900" y="94" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">as of May 12, 2026</text>
+
+  <line x1="96" y1="420" x2="1010" y2="420" stroke="#d9deea"/>
+  <line x1="96" y1="340" x2="1010" y2="340" stroke="#e7eaf1"/>
+  <line x1="96" y1="260" x2="1010" y2="260" stroke="#e7eaf1"/>
+  <line x1="96" y1="180" x2="1010" y2="180" stroke="#e7eaf1"/>
+  <line x1="96" y1="100" x2="1010" y2="100" stroke="#e7eaf1"/>
+
+  <text x="50" y="425" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">100</text>
+  <text x="50" y="345" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">120</text>
+  <text x="50" y="265" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">140</text>
+  <text x="50" y="185" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">160</text>
+  <text x="50" y="105" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">180</text>
+
+  <defs>
+    <linearGradient id="area" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b2748" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0b2748" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M 96 420 C 310 372, 510 296, 720 218 S 930 168, 1010 168" fill="none" stroke="#0b2748" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 96 420 C 310 372, 510 296, 720 218 S 930 168, 1010 168 L 1010 420 L 96 420 Z" fill="url(#area)"/>
+
+  <circle cx="96" cy="420" r="6" fill="#0b2748"/>
+  <circle cx="1010" cy="168" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
+  <text x="78" y="456" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">Apr 1</text>
+  <text x="970" y="456" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">May 12</text>
+  <text x="112" y="405" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#101827">100.00</text>
+  <text x="922" y="151" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">162.96</text>
+
+  <rect x="64" y="486" width="972" height="1" fill="#e7eaf1"/>
+  <text x="64" y="520" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">Returns are shown as index values only. Account size, trade size, cost basis, and derivative contract details are not disclosed.</text>
+</svg>
