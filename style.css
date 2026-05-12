@@ -1523,3 +1523,12 @@ footer {
   text-overflow: clip !important;
   word-break: break-word;
 }
+
+/* ─── Hide founder photo / LinkedIn public profile ────────────── */
+
+.people-layout.no-photo {
+  grid-template-columns: 1fr;
+}
+.people-layout.no-photo .people-content {
+  max-width: 680px;
+}
