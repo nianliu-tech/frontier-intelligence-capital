@@ -1,5 +1,7 @@
 # Frontier Intelligence Capital
 
+![Frontier Intelligence Capital banner](assets/banner/frontier-intelligence-capital-banner.png)
+
 **Investing in the Age of Intelligence.**
 
 Frontier Intelligence Capital is an AI-native public markets investment company focused on technology, productivity, and the changing economics of work.
@@ -57,8 +59,21 @@ We are not a short-term trading shop, a hype-driven AI stock picker, or a market
 
 - [Homepage copy](website/copy/homepage.md)
 
-## Logo
+## Brand Assets
 
-![Frontier Intelligence Capital logo](assets/logo/frontier-intelligence-capital-logo.png)
+### Square Logo
 
-Logo files are stored in `assets/logo/`.
+![Frontier Intelligence Capital square logo](assets/logo/frontier-intelligence-capital-logo-square.png)
+
+Use the square logo for GitHub avatar, LinkedIn company profile, favicon, and app/icon placements.
+
+### Banner
+
+![Frontier Intelligence Capital banner](assets/banner/frontier-intelligence-capital-banner.png)
+
+Use the banner for README hero images, LinkedIn cover images, website headers, and presentation title slides.
+
+Brand assets are stored in:
+
+- `assets/logo/`
+- `assets/banner/`
