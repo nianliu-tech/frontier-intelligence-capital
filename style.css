@@ -884,9 +884,11 @@ footer {
   border-color: var(--accent);
 }
 .contact-icon svg {
-  width: 17px;
-  height: 17px;
+  display: block;
+  width: 16px;
+  height: 16px;
   fill: currentColor;
+  flex: 0 0 auto;
 }
 .contact-item em {
   display: block;
