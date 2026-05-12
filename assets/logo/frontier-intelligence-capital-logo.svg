@@ -1,0 +1,40 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#070A12"/>
+  <defs>
+    <linearGradient id="g" x1="420" y1="260" x2="780" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DE3FF"/>
+      <stop offset="0.52" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F6C85F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="410" y1="450" x2="820" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DE3FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7DE3FF"/>
+      <stop offset="1" stop-color="#F6C85F" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- emblem -->
+  <g transform="translate(260 160)">
+    <circle cx="290" cy="290" r="230" stroke="url(#g)" stroke-width="10" opacity="0.95"/>
+    <path d="M112 330 C205 235 298 236 470 168" stroke="url(#g)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M128 390 C245 306 340 320 458 254" stroke="url(#line)" stroke-width="7" stroke-linecap="round" opacity="0.75"/>
+    <path d="M210 468 L210 185 L405 185" stroke="white" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M210 318 L360 318" stroke="white" stroke-width="28" stroke-linecap="round"/>
+
+    <!-- intelligence nodes -->
+    <circle cx="470" cy="168" r="13" fill="#F6C85F"/>
+    <circle cx="458" cy="254" r="9" fill="#7DE3FF"/>
+    <circle cx="360" cy="318" r="8" fill="#8B5CF6"/>
+    <circle cx="405" cy="185" r="8" fill="#FFFFFF"/>
+    <path d="M405 185 L470 168 L458 254 L360 318" stroke="#FFFFFF" stroke-width="3" opacity="0.38"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(830 315)">
+    <text x="0" y="0" fill="#F8FAFC" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="70" font-weight="650" letter-spacing="-1.5">Frontier</text>
+    <text x="0" y="86" fill="#F8FAFC" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="70" font-weight="650" letter-spacing="-1.5">Intelligence</text>
+    <text x="0" y="172" fill="#9CA3AF" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="44" font-weight="500" letter-spacing="7">CAPITAL</text>
+    <rect x="0" y="220" width="430" height="4" rx="2" fill="url(#g)"/>
+    <text x="0" y="285" fill="#CBD5E1" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="400" letter-spacing="0.5">AI-native public markets investor</text>
+  </g>
+</svg>
