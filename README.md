@@ -1,6 +1,50 @@
 # Frontier Intelligence Capital
 
-AI-native public markets investor focused on technology, productivity, and the changing economics of work.
+**Investing in the Age of Intelligence.**
+
+Frontier Intelligence Capital is an AI-native public markets investment company focused on technology, productivity, and the changing economics of work.
+
+We believe AI is not only a software cycle. It is a structural shift in how economic value is created, captured, and compounded. As intelligence becomes increasingly abundant, the relationship between labor, capital, compute, platforms, and ownership will be reshaped.
+
+Our work focuses on owning the assets, platforms, and companies positioned to benefit from this transition.
+
+## Core Belief
+
+In the AI era, the most durable way to participate in the upside of intelligence is not only to use AI, but to own the productive assets that compound from it.
+
+AI will compress parts of traditional knowledge work, but it will also expand the economic power of:
+
+- compute infrastructure
+- semiconductor ecosystems
+- cloud platforms
+- software productivity
+- data and distribution networks
+- public companies with scale and capital discipline
+
+Frontier Intelligence Capital exists to study and invest in that shift through public markets.
+
+## Investment Philosophy
+
+We are long-term, technology-focused, and ownership-oriented.
+
+Our approach emphasizes:
+
+- public market exposure to AI-driven productivity growth
+- disciplined capital allocation
+- risk-controlled compounding
+- duration and leverage management
+- clarity over complexity
+
+We are not a short-term trading shop, a hype-driven AI stock picker, or a market-timing newsletter. The goal is to build a clear, repeatable investment framework for the intelligence economy.
+
+## Focus Areas
+
+- AI Infrastructure
+- Compute & Semiconductors
+- Cloud Platforms
+- Software Productivity
+- Nasdaq / Public Market Exposure
+- Long-term Technology Compounding
 
 ## Documents
 
