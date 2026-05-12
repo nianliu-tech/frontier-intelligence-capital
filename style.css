@@ -882,12 +882,21 @@ footer {
   background: var(--accent);
   color: #ffffff;
   border-color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
 }
 .contact-icon svg {
   display: block;
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   flex: 0 0 auto;
 }
 .contact-item em {
@@ -909,4 +918,50 @@ footer {
 @media (max-width: 860px) {
   .founder-card,
   .founder-main { grid-template-columns: 1fr; }
+}
+
+
+/* ─── Founder contact icon alignment fix ──────────────────────── */
+
+.contact-item .contact-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 38px !important;
+  height: 38px !important;
+  min-width: 38px;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+  text-align: center;
+}
+.contact-item .contact-icon svg {
+  display: block !important;
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
+}
+.contact-item .contact-icon.linkedin {
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+}
+.contact-item .contact-icon.linkedin::before {
+  content: "in";
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1;
+  transform: translateY(-0.5px);
+}
+
+/* ─── Founder photo ───────────────────────────────────────────── */
+
+.founder-photo {
+  display: block;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
 }
