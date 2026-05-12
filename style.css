@@ -879,14 +879,10 @@ footer {
   background: #f8f6ef;
 }
 .contact-icon.linkedin {
-  background: var(--accent);
-  color: #ffffff;
-  border-color: var(--accent);
-  font-family: var(--sans);
-  font-size: 0.92rem;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.04em;
+  background: #f8f6ef;
+  color: var(--accent);
+  border-color: var(--line-strong);
+  border-radius: 999px;
 }
 .contact-icon svg {
   display: block;
@@ -964,4 +960,42 @@ footer {
   object-fit: cover;
   border: 1px solid var(--line-strong);
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
+}
+
+/* ─── LinkedIn glyph in matched circle ────────────────────────── */
+
+.contact-item .contact-icon.linkedin::before { content: none !important; }
+.contact-item .contact-icon.linkedin svg {
+  display: block !important;
+  width: 17px !important;
+  height: 17px !important;
+  fill: currentColor !important;
+  stroke: none !important;
+  margin: 0 !important;
+}
+
+/* ─── Company contact card ────────────────────────────────────── */
+
+.company-contact-card {
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  gap: 36px;
+  align-items: center;
+  margin: -18px 0 52px;
+  padding: 28px 32px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+}
+.company-contact-card h2 {
+  margin: 8px 0 10px;
+}
+.company-contact-card p {
+  margin-bottom: 0;
+}
+.company-contact-card .contact-item {
+  border: 1px solid var(--line);
+}
+
+@media (max-width: 860px) {
+  .company-contact-card { grid-template-columns: 1fr; }
 }
