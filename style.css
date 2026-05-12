@@ -999,3 +999,527 @@ footer {
 @media (max-width: 860px) {
   .company-contact-card { grid-template-columns: 1fr; }
 }
+
+/* ─── About page layout preview v2 ────────────────────────────── */
+
+.founder-profile {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  gap: 34px;
+  align-items: start;
+  margin: 44px 0 22px;
+  padding: 34px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+}
+.founder-photo.large {
+  width: 132px;
+  height: 132px;
+  border-radius: 18px;
+}
+.founder-copy h2 {
+  margin: 8px 0 12px;
+}
+.founder-copy p {
+  max-width: 580px;
+  margin-bottom: 24px;
+}
+.founder-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.contact-chip {
+  display: inline-grid;
+  grid-template-columns: 38px auto;
+  align-items: center;
+  gap: 13px;
+  min-width: 250px;
+  padding: 13px 15px;
+  background: #fbfaf6;
+  border: 1px solid var(--line);
+  transition: border-color 140ms ease, background 140ms ease;
+}
+.contact-chip:hover {
+  background: #ffffff;
+  border-color: var(--line-strong);
+}
+.contact-chip em {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1px;
+}
+.contact-chip strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+.company-contact-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin: 0 0 54px;
+  padding: 22px 26px;
+  background: transparent;
+  border: 1px solid var(--line);
+}
+.company-contact-strip strong {
+  display: block;
+  margin-top: 6px;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+.contact-chip.compact {
+  min-width: 330px;
+}
+
+@media (max-width: 860px) {
+  .founder-profile {
+    grid-template-columns: 1fr;
+  }
+  .company-contact-strip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-chip,
+  .contact-chip.compact {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* ─── Unified founder/contact preview v3 ──────────────────────── */
+
+.contact-foundation {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 1px;
+  margin: 44px 0 54px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.founder-side,
+.contact-side {
+  background: var(--bg-elev);
+}
+.founder-side {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 26px;
+  align-items: start;
+  padding: 32px;
+}
+.founder-side .founder-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+}
+.founder-side h2 {
+  margin: 8px 0 12px;
+}
+.founder-side p {
+  margin-bottom: 0;
+}
+.contact-side {
+  display: grid;
+  align-content: center;
+  padding: 18px;
+}
+.contact-row {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 14px;
+  border-bottom: 1px solid var(--line);
+  transition: background 140ms ease;
+}
+.contact-row:last-child { border-bottom: 0; }
+.contact-row:hover { background: #fbfaf6; }
+.contact-row.company {
+  margin-top: 6px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.contact-row em {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 2px;
+}
+.contact-row strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.94rem;
+  font-weight: 500;
+}
+.contact-row:hover strong { color: var(--accent); }
+
+@media (max-width: 860px) {
+  .contact-foundation,
+  .founder-side { grid-template-columns: 1fr; }
+}
+
+/* ─── About page final preview ────────────────────────────────── */
+
+.about-founder-card {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 0;
+  margin: 44px 0 56px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+}
+.founder-identity {
+  padding: 34px 30px;
+  border-right: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff 0%, #fbfaf6 100%);
+}
+.about-founder-photo {
+  display: block;
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line-strong);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
+  margin-bottom: 24px;
+}
+.founder-identity h2 {
+  margin: 8px 0 4px;
+}
+.founder-identity p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+.founder-detail {
+  padding: 34px 36px;
+}
+.founder-detail p {
+  max-width: 620px;
+}
+.about-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 28px;
+}
+.about-contact-pill {
+  display: grid;
+  grid-template-columns: 38px 1fr;
+  align-items: center;
+  gap: 13px;
+  padding: 14px 15px;
+  background: #fbfaf6;
+  border: 1px solid var(--line);
+  transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+.about-contact-pill.company {
+  grid-column: 1 / -1;
+}
+.about-contact-pill:hover {
+  background: #ffffff;
+  border-color: var(--line-strong);
+  transform: translateY(-1px);
+}
+.about-contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  color: var(--accent);
+  background: #f8f6ef;
+}
+.about-contact-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.about-contact-pill[href*="linkedin"] .about-contact-icon svg {
+  fill: currentColor;
+  stroke: none;
+}
+.about-contact-pill em {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 2px;
+}
+.about-contact-pill strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+.about-contact-pill:hover strong { color: var(--accent); }
+
+@media (max-width: 860px) {
+  .about-founder-card {
+    grid-template-columns: 1fr;
+  }
+  .founder-identity {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .about-contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ─── About page people/contact separated preview ─────────────── */
+
+.section-kicker {
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.people-section {
+  margin: 48px 0 54px;
+}
+.people-card {
+  display: grid;
+  grid-template-columns: 148px 1fr;
+  gap: 34px;
+  padding: 34px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+}
+.people-card .about-founder-photo {
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+}
+.people-copy h2 {
+  margin: 8px 0 2px;
+}
+.people-copy .role {
+  margin: 0 0 18px;
+  color: var(--text-soft);
+  font-size: 0.96rem;
+}
+.people-copy p {
+  max-width: 640px;
+}
+.people-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+.people-links .about-contact-pill {
+  min-width: 260px;
+}
+.company-contact-section {
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  gap: 34px;
+  align-items: center;
+  margin: 0 0 58px;
+  padding: 30px 34px;
+  background: #fbfaf6;
+  border: 1px solid var(--line);
+}
+.company-contact-section h2 {
+  margin: 0 0 10px;
+}
+.company-contact-section p {
+  margin-bottom: 0;
+  max-width: 560px;
+}
+.company-contact-section .about-contact-pill {
+  background: #ffffff;
+}
+
+@media (max-width: 860px) {
+  .people-card,
+  .company-contact-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ─── About page balanced layout preview ──────────────────────── */
+
+.about-block {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 0;
+  margin: 42px 0 0;
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+}
+.about-block + .about-block {
+  margin-top: 18px;
+}
+.about-block-label {
+  padding: 32px 28px;
+  border-right: 1px solid var(--line);
+  background: #fbfaf6;
+}
+.about-block-label span {
+  display: block;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.about-block-body {
+  padding: 32px 34px;
+}
+.people-layout {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 30px;
+  align-items: start;
+}
+.people-layout .about-founder-photo {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.people-content h2,
+.company-contact-layout h2 {
+  margin: 8px 0 4px;
+}
+.people-content .role {
+  margin: 0 0 18px;
+  color: var(--text-soft);
+  font-size: 0.96rem;
+}
+.people-content p,
+.company-contact-layout p {
+  max-width: 640px;
+}
+.about-action-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 26px;
+  max-width: 640px;
+}
+.about-action-grid.two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.about-action-grid.one-up {
+  grid-template-columns: 1fr;
+  max-width: 640px;
+}
+.about-action {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  align-items: center;
+  gap: 13px;
+  min-height: 68px;
+  padding: 13px 15px;
+  background: #fbfaf6;
+  border: 1px solid var(--line);
+  transition: background 140ms ease, border-color 140ms ease;
+}
+.about-action:hover {
+  background: #ffffff;
+  border-color: var(--line-strong);
+}
+.about-action-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  color: var(--accent);
+  background: #f8f6ef;
+}
+.about-action-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.about-action[href*="linkedin"] .about-action-icon svg {
+  fill: currentColor;
+  stroke: none;
+}
+.about-action em {
+  display: block;
+  color: var(--muted);
+  font-style: normal;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 2px;
+}
+.about-action strong {
+  display: block;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.about-action:hover strong { color: var(--accent); }
+.company-contact-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.about-company-contact {
+  margin-bottom: 56px;
+}
+
+@media (max-width: 860px) {
+  .about-block,
+  .people-layout,
+  .about-action-grid.two-up {
+    grid-template-columns: 1fr;
+  }
+  .about-block-label {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+/* ─── About contact text visibility fix ───────────────────────── */
+
+.people-content .about-action-grid.two-up {
+  grid-template-columns: 1fr !important;
+}
+.people-content .about-action {
+  max-width: 640px;
+}
+.about-action strong {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  word-break: break-word;
+}
