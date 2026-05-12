@@ -8,8 +8,8 @@
     "notes": "Base 100; account size not disclosed."
   },
   {
-    "date": "2026-04-30",
-    "label": "April 2026",
+    "date": "2026-05-01",
+    "label": "April month-end snapshot",
     "indexedNav": 128.13,
     "cumulativeReturnPct": 28.13,
     "source": "Fidelity statement 2026-04-30",
@@ -22,15 +22,7 @@
       "Bitcoin ETF": 0.01,
       "Other": 0.04
     },
-    "notes": "Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
-  },
-  {
-    "date": "2026-05-08",
-    "label": "May 2026 reconciled",
-    "indexedNav": 158.80,
-    "cumulativeReturnPct": 58.80,
-    "source": "Fidelity investment income export",
-    "notes": "Reconciled NAV coordinate through May 8; allocation details pending month-end statement."
+    "notes": "May 1 coordinate represents Apr 30 month-end statement. Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
   },
   {
     "date": "2026-05-12",

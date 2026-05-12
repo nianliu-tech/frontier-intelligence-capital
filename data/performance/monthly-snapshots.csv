@@ -1,5 +1,4 @@
 date,label,indexed_nav,cumulative_return_pct,source,qqq_nasdaq_pct,hood_pct,cash_reserves_pct,fngu_pct,qld_pct,fbtc_pct,other_pct,notes
 2026-04-01,Inception,100.00,0.00,Initial capital base,,,,,,,,Base 100; account size not disclosed
-2026-04-30,April 2026,128.13,28.13,Fidelity statement 2026-04-30,67.52,13.40,3.30,13.51,2.27,0.01,0.04,Public allocation percentages rounded; no dollar amounts or contract details disclosed
-2026-05-08,May 2026 reconciled,158.80,58.80,Fidelity investment income export,,,,,,,,Reconciled NAV coordinate; allocation details pending month-end statement
+2026-05-01,April month-end snapshot,128.13,28.13,Fidelity statement 2026-04-30,67.52,13.40,3.30,13.51,2.27,0.01,0.04,May 1 coordinate represents Apr 30 month-end statement; public allocation percentages rounded
 2026-05-12,Latest estimate,162.96,62.96,Latest positions export,54.94,12.99,15.59,0.00,0.91,1.08,14.49,Latest estimate; not month-end; public percentages rounded
