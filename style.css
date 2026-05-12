@@ -470,3 +470,67 @@ footer {
   .btn { padding: 11px 18px; font-size: 0.86rem; }
   .site-nav { gap: 14px; }
 }
+
+/* ─── Profile & holdings pages ────────────────────────────────── */
+
+.profile-card,
+.holdings-grid section {
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+}
+.profile-card {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 36px;
+  padding: 32px;
+  margin: 42px 0 48px;
+}
+.profile-card h2,
+.holdings-grid h2 {
+  margin-top: 8px;
+}
+.profile-label {
+  display: inline-block;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.profile-meta {
+  display: grid;
+  gap: 1px;
+  align-content: start;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.profile-meta a {
+  display: block;
+  padding: 18px 20px;
+  background: var(--bg);
+}
+.profile-meta span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+}
+.profile-meta strong {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.holdings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 40px 0 48px;
+}
+.holdings-grid section {
+  padding: 28px;
+}
+.holdings-grid p { margin-bottom: 0; }
+
+@media (max-width: 860px) {
+  .profile-card,
+  .holdings-grid { grid-template-columns: 1fr; }
+}
