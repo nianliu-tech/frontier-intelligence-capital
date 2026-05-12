@@ -4,7 +4,6 @@
     "label": "Inception",
     "indexedNav": 100.00,
     "cumulativeReturnPct": 0.00,
-    "source": "Initial capital base",
     "notes": "Base 100; account size not disclosed."
   },
   {
@@ -12,12 +11,11 @@
     "label": "April month-end snapshot",
     "indexedNav": 128.13,
     "cumulativeReturnPct": 28.13,
-    "source": "Fidelity statement 2026-04-30",
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 67.52,
       "HOOD": 13.40,
-      "Cash & reserves": 3.30,
       "FNGU": 13.51,
+      "Cash & reserves": 3.30,
       "QLD": 2.27,
       "Bitcoin ETF": 0.01,
       "Other": 0.04
@@ -29,15 +27,15 @@
     "label": "Latest estimate",
     "indexedNav": 162.96,
     "cumulativeReturnPct": 62.96,
-    "source": "Latest positions export",
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 54.94,
-      "HOOD": 12.99,
       "Cash & reserves": 15.59,
+      "HOOD": 12.99,
       "APP": 6.41,
       "RDDT": 6.10,
       "NOW": 2.86,
       "Bitcoin ETF": 1.08,
+      "QLD": 0.91,
       "Other": 0.03
     },
     "notes": "Latest estimate; not month-end; public percentages rounded."

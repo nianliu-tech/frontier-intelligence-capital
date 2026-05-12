@@ -696,3 +696,107 @@ footer {
   color: var(--accent);
   font-weight: 500;
 }
+
+/* ─── Detailed snapshot history ───────────────────────────────── */
+
+.history-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin: 34px 0 34px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.history-summary section {
+  background: var(--bg-elev);
+  padding: 22px;
+}
+.history-summary span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 10px;
+}
+.history-summary strong {
+  color: var(--text);
+  font-size: 1.2rem;
+}
+.snapshot-list {
+  display: grid;
+  gap: 22px;
+  margin: 34px 0;
+}
+.snapshot-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  padding: 30px;
+}
+.snapshot-card.latest {
+  border-color: rgba(11, 39, 72, 0.26);
+}
+.snapshot-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+.snapshot-head h2 {
+  margin: 8px 0 0;
+}
+.snapshot-nav {
+  text-align: right;
+}
+.snapshot-nav strong {
+  display: block;
+  color: var(--accent);
+  font-size: 1.7rem;
+  line-height: 1;
+}
+.snapshot-nav span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.86rem;
+  margin-top: 8px;
+}
+.snapshot-allocation {
+  display: grid;
+  gap: 0;
+  margin-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.snapshot-allocation div {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  padding: 14px 0 16px;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+.snapshot-allocation span,
+.snapshot-allocation em {
+  position: relative;
+  z-index: 1;
+}
+.snapshot-allocation span { color: var(--text-soft); }
+.snapshot-allocation em {
+  color: var(--accent);
+  font-style: normal;
+  font-weight: 700;
+}
+.snapshot-allocation i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: var(--w);
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), rgba(191, 164, 106, 0.72));
+}
+@media (max-width: 860px) {
+  .history-summary { grid-template-columns: 1fr; }
+  .snapshot-head { flex-direction: column; }
+  .snapshot-nav { text-align: left; }
+}
