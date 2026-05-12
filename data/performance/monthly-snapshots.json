@@ -1,0 +1,53 @@
+[
+  {
+    "date": "2026-04-01",
+    "label": "Inception",
+    "indexedNav": 100.00,
+    "cumulativeReturnPct": 0.00,
+    "source": "Initial capital base",
+    "notes": "Base 100; account size not disclosed."
+  },
+  {
+    "date": "2026-04-30",
+    "label": "April 2026",
+    "indexedNav": 128.13,
+    "cumulativeReturnPct": 28.13,
+    "source": "Fidelity statement 2026-04-30",
+    "allocationPct": {
+      "QQQ / Nasdaq-100 exposure": 67.52,
+      "HOOD": 13.40,
+      "Cash & reserves": 3.30,
+      "FNGU": 13.51,
+      "QLD": 2.27,
+      "Bitcoin ETF": 0.01,
+      "Other": 0.04
+    },
+    "notes": "Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
+  },
+  {
+    "date": "2026-05-08",
+    "label": "May 2026 reconciled",
+    "indexedNav": 158.80,
+    "cumulativeReturnPct": 58.80,
+    "source": "Fidelity investment income export",
+    "notes": "Reconciled NAV coordinate through May 8; allocation details pending month-end statement."
+  },
+  {
+    "date": "2026-05-12",
+    "label": "Latest estimate",
+    "indexedNav": 162.96,
+    "cumulativeReturnPct": 62.96,
+    "source": "Latest positions export",
+    "allocationPct": {
+      "QQQ / Nasdaq-100 exposure": 54.94,
+      "HOOD": 12.99,
+      "Cash & reserves": 15.59,
+      "APP": 6.41,
+      "RDDT": 6.10,
+      "NOW": 2.86,
+      "Bitcoin ETF": 1.08,
+      "Other": 0.03
+    },
+    "notes": "Latest estimate; not month-end; public percentages rounded."
+  }
+]
