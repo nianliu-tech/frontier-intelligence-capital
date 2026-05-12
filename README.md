@@ -57,7 +57,7 @@ We are not a short-term trading shop, a hype-driven AI stock picker, or a market
 
 ## Website
 
-Live site: https://nianliu-tech.github.io/frontier-intelligence-capital/
+Live site: https://frontierintelligence.capital/
 
 - [Homepage copy](website/copy/homepage.md)
 
