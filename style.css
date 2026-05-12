@@ -62,19 +62,11 @@ main { width: min(var(--maxw), calc(100% - var(--pad-x))); margin: 0 auto; }
   white-space: nowrap;
 }
 .brand .mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  border: 1px solid var(--line-strong);
-  border-radius: 3px;
-  font-family: var(--serif);
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: var(--accent);
-  line-height: 1;
-  padding-top: 1px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50%;
 }
 .brand .wordmark {
   font-family: var(--serif);
