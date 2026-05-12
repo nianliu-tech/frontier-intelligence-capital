@@ -65,10 +65,10 @@ main { width: min(var(--maxw), calc(100% - var(--pad-x))); margin: 0 auto; }
   white-space: nowrap;
 }
 .brand img {
-  width: 24px;
-  height: 24px;
-  border-radius: 4px;
-  object-fit: cover;
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
 }
 .site-nav {
   display: flex;
@@ -150,20 +150,6 @@ h1 {
 .btn.ghost:hover {
   border-color: var(--accent);
   color: var(--accent);
-}
-
-/* ─── Brand plate (banner) ────────────────────────────────────── */
-
-.brand-plate {
-  padding: 0 0 96px;
-}
-.brand-plate img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--line);
-  border-radius: 2px;
-  opacity: 0.92;
 }
 
 /* ─── Editorial bands ─────────────────────────────────────────── */
@@ -360,7 +346,6 @@ footer {
 @media (max-width: 860px) {
   :root { --pad-x: 32px; }
   .hero { padding: 64px 0 56px; }
-  .brand-plate { padding-bottom: 64px; }
   .band { padding: 56px 0; }
   .band-grid { grid-template-columns: 1fr; gap: 20px; }
   .band-label { padding-top: 0; }
