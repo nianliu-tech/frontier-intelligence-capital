@@ -61,19 +61,10 @@ We are not a short-term trading shop, a hype-driven AI stock picker, or a market
 
 ## Brand Assets
 
-### Square Logo
-
-![Frontier Intelligence Capital square logo](assets/logo/frontier-intelligence-capital-logo-square.png)
-
-Use the square logo for GitHub avatar, LinkedIn company profile, favicon, and app/icon placements.
-
 ### Banner
 
 ![Frontier Intelligence Capital banner](assets/banner/frontier-intelligence-capital-banner.png)
 
 Use the banner for README hero images, LinkedIn cover images, website headers, and presentation title slides.
 
-Brand assets are stored in:
-
-- `assets/logo/`
-- `assets/banner/`
+Banner assets are stored in `assets/banner/`.
