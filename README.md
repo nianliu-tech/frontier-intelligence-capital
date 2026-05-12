@@ -4,7 +4,7 @@
 
 **Investing in the Age of Intelligence.**
 
-Frontier Intelligence Capital is an AI-native public markets investment company focused on technology, productivity, and the changing economics of work.
+Frontier Intelligence Capital is an AI-native public markets research vehicle focused on technology, productivity, and the changing economics of work.
 
 We believe AI is not only a software cycle. It is a structural shift in how economic value is created, captured, and compounded. As intelligence becomes increasingly abundant, the relationship between labor, capital, compute, platforms, and ownership will be reshaped.
 
