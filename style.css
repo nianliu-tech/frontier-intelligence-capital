@@ -318,6 +318,39 @@ blockquote {
   margin-left: 6px;
 }
 
+/* ─── Contact ─────────────────────────────────────────────────── */
+
+.contact-list {
+  display: grid;
+  gap: 1px;
+  max-width: 760px;
+  margin-top: 28px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.contact-list a {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 24px;
+  background: var(--bg);
+  transition: background 160ms ease, color 140ms ease;
+}
+.contact-list a:hover {
+  background: var(--bg-elev);
+  color: var(--accent);
+}
+.contact-list span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.contact-list strong {
+  color: var(--text);
+  font-weight: 500;
+  letter-spacing: -0.004em;
+}
+.contact-list a:hover strong { color: var(--accent); }
+
 /* ─── Footer ──────────────────────────────────────────────────── */
 
 footer {
@@ -377,6 +410,7 @@ footer {
   .docs a { flex-direction: column; gap: 4px; padding: 20px 0; }
   .docs a:hover { padding-left: 0; }
   .doc-sub { text-align: left; }
+  .contact-list a { flex-direction: column; gap: 4px; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .foot-meta { text-align: left; }
 }
