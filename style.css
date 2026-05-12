@@ -59,16 +59,29 @@ main { width: min(var(--maxw), calc(100% - var(--pad-x))); margin: 0 auto; }
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.005em;
   white-space: nowrap;
 }
-.brand img {
+.brand .mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 26px;
   height: 26px;
-  object-fit: contain;
-  display: block;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent);
+  line-height: 1;
+  padding-top: 1px;
+}
+.brand .wordmark {
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--text);
 }
 .site-nav {
   display: flex;
@@ -361,7 +374,7 @@ footer {
 
 @media (max-width: 520px) {
   :root { --pad-x: 24px; }
-  .brand span { display: none; }
+  .brand .wordmark { display: none; }
   .actions { gap: 10px; }
   .btn { padding: 11px 18px; font-size: 0.86rem; }
   .site-nav { gap: 14px; }
