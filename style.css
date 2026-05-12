@@ -534,3 +534,66 @@ footer {
   .profile-card,
   .holdings-grid { grid-template-columns: 1fr; }
 }
+
+/* ─── Allocation snapshot ─────────────────────────────────────── */
+
+.allocation-card {
+  margin: 34px 0 28px;
+  padding: 28px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+}
+.allocation-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 18px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+.allocation-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  padding: 18px 0 22px;
+  border-top: 1px solid var(--line);
+  overflow: hidden;
+}
+.allocation-row strong,
+.allocation-row span,
+.allocation-row em {
+  position: relative;
+  z-index: 1;
+}
+.allocation-row strong {
+  display: block;
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.allocation-row span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.allocation-row em {
+  color: var(--accent);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.allocation-row i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: var(--w);
+  background: linear-gradient(90deg, var(--accent), rgba(191, 164, 106, 0.72));
+}
+
+@media (max-width: 860px) {
+  .allocation-head,
+  .allocation-row { grid-template-columns: 1fr; }
+  .allocation-row { gap: 8px; }
+}
