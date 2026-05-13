@@ -271,7 +271,7 @@ blockquote {
 .manifesto-thesis p { margin: 10px 0 0; color: var(--muted); }
 .influence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 30px 0 40px; }
 .influence-grid section { padding: 24px; }
-.influence-grid section:last-child { grid-column: 1 / -1; }
+.influence-grid section:last-child:nth-child(odd) { grid-column: 1 / -1; }
 .influence-grid h3 { margin-top: 10px; }
 .influence-grid p { margin: 0; color: var(--muted); }
 .memo-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; margin: 34px 0 48px; background: var(--line); border: 1px solid var(--line); }
