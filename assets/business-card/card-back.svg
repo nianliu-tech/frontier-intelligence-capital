@@ -1,0 +1,31 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Business Card Back -->
+  <rect width="1050" height="600" fill="white"/>
+  
+  <!-- Info Layout -->
+  <g transform="translate(60 60)">
+    <!-- Name -->
+    <text x="0" y="40" fill="#111111" font-family="Inter, sans-serif" font-size="44" font-weight="600" letter-spacing="-0.02em">Nian Liu</text>
+    <text x="0" y="85" fill="#555555" font-family="Inter, sans-serif" font-size="18" font-weight="400" letter-spacing="0.1em" text-transform="uppercase">Founder &amp; Investor</text>
+    
+    <!-- Company -->
+    <text x="0" y="240" fill="#111111" font-family="Fraunces, serif" font-size="28" font-weight="600">Frontier Intelligence Capital</text>
+    
+    <!-- Line line separator -->
+    <rect x="0" y="270" width="40" height="2" fill="#111111"/>
+    
+    <!-- Contacts -->
+    <g transform="translate(0 320)">
+      <text x="0" y="0" fill="#555555" font-family="Inter, sans-serif" font-size="16">nian@frontierintelligence.capital</text>
+      <text x="0" y="30" fill="#555555" font-family="Inter, sans-serif" font-size="16">frontierintelligence.capital</text>
+    </g>
+  </g>
+  
+  <!-- Small Emblem Bottom Right as a signature -->
+  <g transform="translate(930 480) scale(0.1)">
+    <rect x="0" y="0" width="40" height="500" fill="#111111"/>
+    <rect x="0" y="0" width="450" height="40" fill="#111111"/>
+    <rect x="0" y="230" width="320" height="40" fill="#111111"/>
+    <rect x="0" y="460" width="200" height="40" fill="#111111"/>
+  </g>
+</svg>

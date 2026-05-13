@@ -1,0 +1,15 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background for preview/square usage, transparent by default -->
+  <rect width="1000" height="1000" fill="white"/>
+  
+  <!-- The Emblem (Minimalist F / Intelligence Bars) -->
+  <g transform="translate(150 250)">
+    <!-- Vertical Spine (Subtle) -->
+    <rect x="0" y="0" width="40" height="500" fill="#111111"/>
+    
+    <!-- Horizon Bars -->
+    <rect x="0" y="0" width="450" height="40" fill="#111111"/>
+    <rect x="0" y="230" width="320" height="40" fill="#111111"/>
+    <rect x="0" y="460" width="200" height="40" fill="#111111"/>
+  </g>
+</svg>

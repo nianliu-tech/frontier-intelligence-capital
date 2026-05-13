@@ -1,0 +1,12 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Business Card Front (Minimalist) -->
+  <rect width="1050" height="600" fill="white"/>
+  
+  <!-- Emblem Center -->
+  <g transform="translate(485 240) scale(0.2)">
+    <rect x="0" y="0" width="40" height="500" fill="#111111"/>
+    <rect x="0" y="0" width="450" height="40" fill="#111111"/>
+    <rect x="0" y="230" width="320" height="40" fill="#111111"/>
+    <rect x="0" y="460" width="200" height="40" fill="#111111"/>
+  </g>
+</svg>
