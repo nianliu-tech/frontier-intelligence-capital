@@ -52,10 +52,8 @@ We are not a short-term trading shop, a hype-driven AI stock picker, or a market
 
 ## Documents
 
-- [Company Manifesto — Investing in the Age of Intelligence](docs/manifesto.md)
-- [Investment Thesis — 2026](docs/investment-thesis-2026.md)
-- [LinkedIn Identity & Bio](docs/linkedin-identity-bio.md)
-- [Brand Notes](docs/brand-notes.md)
+- [Company Manifesto](https://frontierintelligence.capital/manifesto.html)
+- [Investment Thesis 2026](https://frontierintelligence.capital/investment-thesis-2026.html)
 
 ## Website
 
