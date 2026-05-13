@@ -1,0 +1,6 @@
+type,name,content,ttl,proxied
+A,@,185.199.108.153,3600,false
+A,@,185.199.109.153,3600,false
+A,@,185.199.110.153,3600,false
+A,@,185.199.111.153,3600,false
+CNAME,www,nianliu-tech.github.io,3600,false
