@@ -8,13 +8,15 @@ Frontier Intelligence Capital is an AI-native proprietary public markets investm
 
 We believe AI is not only a software cycle. It is a structural shift in how economic value is created, captured, and compounded. As intelligence becomes increasingly abundant, the relationship between labor, capital, compute, platforms, and ownership will be reshaped.
 
+The surplus AI creates does not distribute evenly. It accrues to margins, platforms, infrastructure providers, and shareholders — not to the labor it replaces. As AI compresses replicable knowledge work, the path of participating in that surplus through labor alone is closing. The rational response is ownership.
+
 Our work focuses on owning the assets, platforms, and companies positioned to benefit from this transition.
 
 ## Core Belief
 
 In the AI era, the most durable way to participate in the upside of intelligence is not only to use AI, but to own the productive assets that compound from it.
 
-AI will compress parts of traditional knowledge work, but it will also expand the economic power of:
+AI will compress parts of traditional knowledge work — narrowing the share of surplus that flows through labor — while expanding the economic power of:
 
 - compute infrastructure
 - semiconductor ecosystems
