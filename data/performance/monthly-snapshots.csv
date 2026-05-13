@@ -1,4 +1,4 @@
-date,label,indexed_nav,cumulative_return_pct,qqq_nasdaq_pct,hood_pct,cash_reserves_pct,fngu_pct,qld_pct,fbtc_pct,app_pct,rddt_pct,now_pct,other_pct,notes
-2026-04-01,Inception,100.00,0.00,,,,,,,,,,,Base 100; account size not disclosed
-2026-05-01,April month-end snapshot,128.13,28.13,67.52,13.40,3.30,13.51,2.27,0.01,,,,0.04,May 1 coordinate represents Apr 30 month-end statement; public allocation percentages rounded
-2026-05-12,Latest estimate,162.96,62.96,54.94,12.99,15.59,0.00,0.91,1.08,6.41,6.10,2.86,0.03,Latest estimate; not month-end; public percentages rounded
+date,label,indexed_nav,cumulative_return_pct,qqq_return_pct,qqq_nasdaq_pct,hood_pct,cash_reserves_pct,fngu_pct,qld_pct,fbtc_pct,app_pct,rddt_pct,now_pct,other_pct,notes
+2026-04-01,Inception,100.00,0.00,0.00,,,,,,,,,,,Base 100; account size not disclosed
+2026-05-01,April month-end snapshot,128.13,28.13,14.28,67.52,13.40,3.30,13.51,2.27,0.01,,,,0.04,May 1 coordinate represents Apr 30 month-end statement; public allocation percentages rounded
+2026-05-12,Latest estimate,162.96,62.96,21.04,54.94,12.99,15.59,0.00,0.91,1.08,6.41,6.10,2.86,0.03,Latest estimate; not month-end; public percentages rounded

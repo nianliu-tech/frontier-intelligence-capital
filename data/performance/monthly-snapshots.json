@@ -4,6 +4,7 @@
     "label": "Inception",
     "indexedNav": 100.00,
     "cumulativeReturnPct": 0.00,
+    "qqqReturnPct": 0.00,
     "notes": "Base 100; account size not disclosed."
   },
   {
@@ -11,6 +12,7 @@
     "label": "April month-end snapshot",
     "indexedNav": 128.13,
     "cumulativeReturnPct": 28.13,
+    "qqqReturnPct": 14.28,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 67.52,
       "HOOD": 13.40,
@@ -27,6 +29,7 @@
     "label": "Latest estimate",
     "indexedNav": 162.96,
     "cumulativeReturnPct": 62.96,
+    "qqqReturnPct": 21.04,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 54.94,
       "Cash & reserves": 15.59,
