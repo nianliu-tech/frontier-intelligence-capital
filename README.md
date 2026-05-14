@@ -53,7 +53,7 @@ We are not a short-term trading shop, a hype-driven AI stock picker, or a market
 ## Documents
 
 - [Company Manifesto](https://frontierintelligence.capital/manifesto.html)
-- [Investment Thesis 2026](https://frontierintelligence.capital/investment-thesis-2026.html)
+- [Investment Thesis](https://frontierintelligence.capital/investment-thesis.html)
 
 ## Website
 
