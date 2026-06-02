@@ -2,9 +2,9 @@
   {
     "date": "2026-04-01",
     "label": "Inception",
-    "indexedNav": 100.00,
-    "cumulativeReturnPct": 0.00,
-    "qqqReturnPct": 0.00,
+    "indexedNav": 100.0,
+    "cumulativeReturnPct": 0.0,
+    "qqqReturnPct": 0.0,
     "notes": "Base 100; account size not disclosed."
   },
   {
@@ -15,33 +15,14 @@
     "qqqReturnPct": 14.28,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 67.52,
-      "HOOD": 13.40,
+      "HOOD": 13.4,
       "FNGU": 13.51,
-      "Cash & reserves": 3.30,
+      "Cash & reserves": 3.3,
       "QLD": 2.27,
       "Bitcoin ETF": 0.01,
       "Other": 0.04
     },
     "notes": "May 1 coordinate represents Apr 30 month-end statement. Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
-  },
-  {
-    "date": "2026-05-12",
-    "label": "Interim estimate",
-    "indexedNav": 162.96,
-    "cumulativeReturnPct": 62.96,
-    "qqqReturnPct": 21.04,
-    "allocationPct": {
-      "QQQ / Nasdaq-100 exposure": 54.94,
-      "Cash & reserves": 15.59,
-      "HOOD": 12.99,
-      "APP": 6.41,
-      "RDDT": 6.10,
-      "NOW": 2.86,
-      "Bitcoin ETF": 1.08,
-      "QLD": 0.91,
-      "Other": 0.03
-    },
-    "notes": "Interim estimate; not month-end; public percentages rounded."
   },
   {
     "date": "2026-06-01",
@@ -51,7 +32,7 @@
     "qqqReturnPct": 25.29,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 61.82,
-      "APP": 8.30,
+      "APP": 8.3,
       "RDDT": 6.42,
       "DRAM": 6.34,
       "Cash & reserves": 4.81,
@@ -61,24 +42,5 @@
       "VRT": 2.49
     },
     "notes": "Jun 1 coordinate represents the May month-end portfolio snapshot. Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
-  },
-  {
-    "date": "2026-06-02",
-    "label": "Latest estimate",
-    "indexedNav": 193.22,
-    "cumulativeReturnPct": 93.22,
-    "qqqReturnPct": 26.04,
-    "allocationPct": {
-      "QQQ / Nasdaq-100 exposure": 61.23,
-      "APP": 8.01,
-      "DRAM": 7.07,
-      "RDDT": 6.39,
-      "Cash & reserves": 4.59,
-      "NOW": 4.07,
-      "CRDO": 3.38,
-      "VRT": 2.64,
-      "HOOD": 2.61
-    },
-    "notes": "Latest estimate; not month-end; public percentages rounded."
   }
 ]
