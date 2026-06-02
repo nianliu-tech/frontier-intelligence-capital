@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
   <title id="title">Frontier Intelligence Capital Indexed NAV</title>
-  <desc id="desc">Indexed NAV from April 1, 2026 to May 12, 2026, starting at 100, with May 1 month-end coordinate of 128.13 and latest estimate of 162.96.</desc>
+  <desc id="desc">Indexed NAV from April 1, 2026 to June 2, 2026, starting at 100, with May 1 month-end coordinate of 128.13, June 1 month-end coordinate of 186.41, and latest estimate of 193.22.</desc>
   <rect width="1100" height="600" fill="#ffffff"/>
   <rect x="1" y="1" width="1098" height="598" fill="#ffffff" stroke="#d9deea"/>
   <text x="64" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#101827">Indexed NAV</text>
-  <text x="64" y="98" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">Base 100 on Apr 1, 2026 · Monthly nodes + latest estimate · Account size not disclosed</text>
-  <text x="866" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">162.96</text>
-  <text x="866" y="94" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">latest estimate · May 12, 2026</text>
+  <text x="64" y="98" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">Base 100 on Apr 1, 2026 - Monthly nodes + latest estimate - Account size not disclosed</text>
+  <text x="866" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">193.22</text>
+  <text x="866" y="94" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">latest estimate - Jun 2, 2026</text>
 
   <line x1="96" y1="446" x2="1010" y2="446" stroke="#d9deea"/>
   <line x1="96" y1="371" x2="1010" y2="371" stroke="#e7eaf1"/>
@@ -15,26 +15,32 @@
   <line x1="96" y1="146" x2="1010" y2="146" stroke="#e7eaf1"/>
 
   <text x="50" y="451" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">100</text>
-  <text x="50" y="376" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">120</text>
-  <text x="50" y="301" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">140</text>
-  <text x="50" y="226" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">160</text>
-  <text x="50" y="151" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">180</text>
+  <text x="50" y="376" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">125</text>
+  <text x="50" y="301" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">150</text>
+  <text x="50" y="226" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">175</text>
+  <text x="50" y="151" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">200</text>
 
   <defs><linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#0b2748" stop-opacity="0.18"/><stop offset="100%" stop-color="#0b2748" stop-opacity="0"/></linearGradient></defs>
-  <path d="M 96 446 C 310 420, 520 360, 760 340 C 878 330, 944 235, 1010 210" fill="none" stroke="#0b2748" stroke-width="4" stroke-linecap="round"/>
-  <path d="M 96 446 C 310 420, 520 360, 760 340 C 878 330, 944 235, 1010 210 L 1010 446 L 96 446 Z" fill="url(#area)"/>
+  <path d="M 96 446 C 260 420, 390 380, 500 362 C 575 348, 610 285, 650 257 C 730 200, 800 195, 860 187 C 928 178, 970 171, 1010 166" fill="none" stroke="#0b2748" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 96 446 C 260 420, 390 380, 500 362 C 575 348, 610 285, 650 257 C 730 200, 800 195, 860 187 C 928 178, 970 171, 1010 166 L 1010 446 L 96 446 Z" fill="url(#area)"/>
 
   <circle cx="96" cy="446" r="6" fill="#0b2748"/>
-  <circle cx="760" cy="340" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
-  <circle cx="1010" cy="210" r="7" fill="#ffffff" stroke="#0b2748" stroke-width="3"/>
+  <circle cx="500" cy="362" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
+  <circle cx="650" cy="257" r="6" fill="#ffffff" stroke="#0b2748" stroke-width="2"/>
+  <circle cx="860" cy="187" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
+  <circle cx="1010" cy="166" r="7" fill="#ffffff" stroke="#0b2748" stroke-width="3"/>
 
   <text x="76" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">Apr 1</text>
-  <text x="730" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">May 1</text>
-  <text x="970" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">May 12</text>
+  <text x="470" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">May 1</text>
+  <text x="620" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">May 12</text>
+  <text x="830" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">Jun 1</text>
+  <text x="970" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">Jun 2</text>
   <text x="112" y="432" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#101827">100.00</text>
-  <text x="682" y="324" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">128.13</text>
-  <text x="938" y="191" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">162.96</text>
+  <text x="465" y="346" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">128.13</text>
+  <text x="615" y="241" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">162.96</text>
+  <text x="824" y="171" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">186.41</text>
+  <text x="938" y="147" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">193.22</text>
 
   <rect x="64" y="520" width="972" height="1" fill="#e7eaf1"/>
-  <text x="64" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">May 1 coordinate represents the Apr 30 month-end Fidelity statement. Latest estimate is based on latest portfolio positions and remains preliminary.</text>
+  <text x="64" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">Month-end coordinates use prior month-end snapshots. Latest estimate is based on latest portfolio positions and remains preliminary.</text>
 </svg>

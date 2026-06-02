@@ -26,7 +26,7 @@
   },
   {
     "date": "2026-05-12",
-    "label": "Latest estimate",
+    "label": "Interim estimate",
     "indexedNav": 162.96,
     "cumulativeReturnPct": 62.96,
     "qqqReturnPct": 21.04,
@@ -40,6 +40,44 @@
       "Bitcoin ETF": 1.08,
       "QLD": 0.91,
       "Other": 0.03
+    },
+    "notes": "Interim estimate; not month-end; public percentages rounded."
+  },
+  {
+    "date": "2026-06-01",
+    "label": "May month-end snapshot",
+    "indexedNav": 186.41,
+    "cumulativeReturnPct": 86.41,
+    "qqqReturnPct": 25.29,
+    "allocationPct": {
+      "QQQ / Nasdaq-100 exposure": 61.82,
+      "APP": 8.30,
+      "RDDT": 6.42,
+      "DRAM": 6.34,
+      "Cash & reserves": 4.81,
+      "CRDO": 3.61,
+      "NOW": 3.33,
+      "HOOD": 2.86,
+      "VRT": 2.49
+    },
+    "notes": "Jun 1 coordinate represents the May month-end portfolio snapshot. Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
+  },
+  {
+    "date": "2026-06-02",
+    "label": "Latest estimate",
+    "indexedNav": 193.22,
+    "cumulativeReturnPct": 93.22,
+    "qqqReturnPct": 26.04,
+    "allocationPct": {
+      "QQQ / Nasdaq-100 exposure": 61.23,
+      "APP": 8.01,
+      "DRAM": 7.07,
+      "RDDT": 6.39,
+      "Cash & reserves": 4.59,
+      "NOW": 4.07,
+      "CRDO": 3.38,
+      "VRT": 2.64,
+      "HOOD": 2.61
     },
     "notes": "Latest estimate; not month-end; public percentages rounded."
   }
