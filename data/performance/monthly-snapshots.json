@@ -46,8 +46,8 @@
   {
     "date": "2026-07-01",
     "label": "June month-end snapshot",
-    "indexedNav": 171.01,
-    "cumulativeReturnPct": 71.01,
+    "indexedNav": 171.3,
+    "cumulativeReturnPct": 71.3,
     "qqqReturnPct": 24.97,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 51.34,
@@ -61,6 +61,6 @@
       "Cash & reserves": 3.08,
       "Other": 4.04
     },
-    "notes": "Jul 1 coordinate represents the June month-end portfolio snapshot. Public allocation percentages rounded; drawdown month."
+    "notes": "Jul 1 coordinate represents the June month-end portfolio snapshot, anchored to the official June statement (ending value 480,468.43). Public allocation percentages rounded; drawdown month."
   }
 ]

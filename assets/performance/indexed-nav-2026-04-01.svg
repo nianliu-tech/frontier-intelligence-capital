@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
   <title id="title">Frontier Intelligence Capital Indexed NAV</title>
-  <desc id="desc">Indexed NAV from April 1, 2026 to July 1, 2026, starting at 100, with monthly coordinates of 128.13 (May 1), 186.41 (Jun 1) and 171.01 (Jul 1).</desc>
+  <desc id="desc">Indexed NAV from April 1, 2026 to July 1, 2026, starting at 100, with monthly coordinates of 128.13 (May 1), 186.41 (Jun 1) and 171.30 (Jul 1).</desc>
   <rect width="1100" height="600" fill="#ffffff"/>
   <rect x="1" y="1" width="1098" height="598" fill="#ffffff" stroke="#d9deea"/>
   <text x="64" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#101827">Indexed NAV</text>
   <text x="64" y="98" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">Base 100 on Apr 1, 2026 - Monthly nodes - Account size not disclosed</text>
-  <text x="866" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">171.01</text>
+  <text x="866" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">171.30</text>
   <text x="866" y="94" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">June month-end record - Jul 1, 2026</text>
   <line x1="96" y1="446" x2="1010" y2="446" stroke="#d9deea"/>
   <line x1="96" y1="371" x2="1010" y2="371" stroke="#e7eaf1"/>
