@@ -50,16 +50,10 @@
     "cumulativeReturnPct": 71.3,
     "qqqReturnPct": 24.97,
     "allocationPct": {
-      "QQQ / Nasdaq-100 exposure": 51.34,
-      "APP": 8.39,
-      "DRAM": 6.35,
-      "CRDO": 6.14,
-      "HOOD": 5.84,
-      "NOW": 5.47,
-      "RDDT": 5.01,
-      "VRT": 4.34,
-      "Cash & reserves": 3.08,
-      "Other": 4.04
+      "QQQ / Nasdaq-100 exposure": 60.17,
+      "DRAM": 8.67,
+      "APP": 6.27,
+      "Other AI & platform equities and reserves": 24.89
     },
     "notes": "Jul 1 coordinate represents the June month-end portfolio snapshot, anchored to the official June statement (ending value 480,468.43). Public allocation percentages rounded; drawdown month."
   }

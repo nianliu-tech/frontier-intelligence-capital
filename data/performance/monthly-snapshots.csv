@@ -2,4 +2,4 @@ date,label,indexed_nav,cumulative_return_pct,qqq_return_pct,qqq_nasdaq_pct,hood_
 2026-04-01,Inception,100.00,0.00,0.00,,,,,,,,,,,,,,Base 100; account size not disclosed
 2026-05-01,April month-end snapshot,128.13,28.13,14.28,67.52,13.40,3.30,13.51,2.27,0.01,,,,,,,0.04,May 1 coordinate represents Apr 30 month-end statement; public allocation percentages rounded
 2026-06-01,May month-end snapshot,186.41,86.41,25.29,61.82,2.86,4.81,0.00,0.00,0.00,8.30,6.42,3.33,6.34,3.61,2.49,0.00,Jun 1 coordinate represents the May month-end portfolio snapshot; public percentages rounded
-2026-07-01,June month-end snapshot,171.30,71.30,24.97,51.34,5.84,3.08,0.00,0.00,0.00,8.39,5.01,5.47,6.35,6.14,4.34,4.04,Jul 1 coordinate represents the June month-end portfolio snapshot; drawdown month; residual in other reflects an unlisted small position
+2026-07-01,June month-end snapshot,171.30,71.30,24.97,60.17,,,,,,6.27,,,8.67,,,24.89,Jul 1 coordinate anchored to the official June statement (ending value 480468.43); detail rows aggregated in other; drawdown month
