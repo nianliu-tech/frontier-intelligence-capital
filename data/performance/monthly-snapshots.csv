@@ -1,5 +1,5 @@
-date,label,indexed_nav,cumulative_return_pct,qqq_return_pct,qqq_nasdaq_pct,hood_pct,cash_reserves_pct,fngu_pct,qld_pct,fbtc_pct,app_pct,rddt_pct,now_pct,dram_pct,crdo_pct,vrt_pct,other_pct,notes
-2026-04-01,Inception,100.00,0.00,0.00,,,,,,,,,,,,,,Base 100; account size not disclosed
-2026-05-01,April month-end snapshot,128.13,28.13,14.28,67.52,13.40,3.30,13.51,2.27,0.01,,,,,,,0.04,May 1 coordinate represents Apr 30 month-end statement; public allocation percentages rounded
-2026-06-01,May month-end snapshot,186.41,86.41,25.29,61.82,2.86,4.81,0.00,0.00,0.00,8.30,6.42,3.33,6.34,3.61,2.49,0.00,Jun 1 coordinate represents the May month-end portfolio snapshot; public percentages rounded
-2026-07-01,June month-end snapshot,171.30,71.30,24.97,60.17,,,,,,6.27,,,8.67,,,24.89,Jul 1 coordinate anchored to the official June statement (ending value 480468.43); detail rows aggregated in other; drawdown month
+date,label,indexed_nav,cumulative_return_pct,qqq_return_pct,qqq_nasdaq_pct,hood_pct,cash_reserves_pct,fngu_pct,qld_pct,fbtc_pct,app_pct,rddt_pct,now_pct,dram_pct,crdo_pct,vrt_pct,spcx_pct,other_pct,notes
+2026-04-01,Inception,100.00,0.00,0.00,,,,,,,,,,,,,,,Base 100; account size not disclosed
+2026-05-01,April month-end snapshot,129.76,29.76,14.28,67.52,13.40,3.30,13.51,2.27,0.01,,,,,,,,0.04,May 1 coordinate represents Apr 30 month-end statement; public allocation percentages rounded
+2026-06-01,May month-end snapshot,202.03,102.03,25.29,61.82,2.86,4.81,0.00,0.00,0.00,8.30,6.42,3.33,6.34,3.61,2.49,,0.00,Jun 1 coordinate represents the May month-end portfolio snapshot; public percentages rounded
+2026-07-01,June month-end snapshot,196.73,96.73,24.97,60.17,3.69,0.42,0.00,0.00,0.00,6.27,4.41,3.79,8.67,5.35,3.23,4.01,,Jul 1 coordinate from the official June statement; series convention: cumulative net profit over cumulative net deposits

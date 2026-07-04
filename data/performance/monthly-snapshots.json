@@ -10,8 +10,8 @@
   {
     "date": "2026-05-01",
     "label": "April month-end snapshot",
-    "indexedNav": 128.13,
-    "cumulativeReturnPct": 28.13,
+    "indexedNav": 129.76,
+    "cumulativeReturnPct": 29.76,
     "qqqReturnPct": 14.28,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 67.52,
@@ -27,8 +27,8 @@
   {
     "date": "2026-06-01",
     "label": "May month-end snapshot",
-    "indexedNav": 186.41,
-    "cumulativeReturnPct": 86.41,
+    "indexedNav": 202.03,
+    "cumulativeReturnPct": 102.03,
     "qqqReturnPct": 25.29,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 61.82,
@@ -46,15 +46,21 @@
   {
     "date": "2026-07-01",
     "label": "June month-end snapshot",
-    "indexedNav": 171.3,
-    "cumulativeReturnPct": 71.3,
+    "indexedNav": 196.73,
+    "cumulativeReturnPct": 96.73,
     "qqqReturnPct": 24.97,
     "allocationPct": {
       "QQQ / Nasdaq-100 exposure": 60.17,
       "DRAM": 8.67,
       "APP": 6.27,
-      "Other AI & platform equities and reserves": 24.89
+      "CRDO": 5.35,
+      "RDDT": 4.41,
+      "SPCX": 4.01,
+      "NOW": 3.79,
+      "HOOD": 3.69,
+      "VRT": 3.23,
+      "Cash & short-duration reserves": 0.42
     },
-    "notes": "Jul 1 coordinate represents the June month-end portfolio snapshot, anchored to the official June statement (ending value 480,468.43). Public allocation percentages rounded; drawdown month."
+    "notes": "Jul 1 coordinate anchored to the official June statement (ending value 480,468.43; YTD net profit 236,238.85; cumulative net deposits 244,229.58). Series convention: cumulative net profit over cumulative net deposits."
   }
 ]
