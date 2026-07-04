@@ -42,5 +42,25 @@
       "VRT": 2.49
     },
     "notes": "Jun 1 coordinate represents the May month-end portfolio snapshot. Public allocation percentages rounded; no dollar amounts, cost basis, quantities, or option contract details disclosed."
+  },
+  {
+    "date": "2026-07-01",
+    "label": "June month-end snapshot",
+    "indexedNav": 171.01,
+    "cumulativeReturnPct": 71.01,
+    "qqqReturnPct": 24.97,
+    "allocationPct": {
+      "QQQ / Nasdaq-100 exposure": 51.34,
+      "APP": 8.39,
+      "DRAM": 6.35,
+      "CRDO": 6.14,
+      "HOOD": 5.84,
+      "NOW": 5.47,
+      "RDDT": 5.01,
+      "VRT": 4.34,
+      "Cash & reserves": 3.08,
+      "Other": 4.04
+    },
+    "notes": "Jul 1 coordinate represents the June month-end portfolio snapshot. Public allocation percentages rounded; drawdown month."
   }
 ]

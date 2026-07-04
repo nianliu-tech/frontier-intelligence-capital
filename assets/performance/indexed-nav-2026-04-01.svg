@@ -1,41 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" role="img" aria-labelledby="title desc">
   <title id="title">Frontier Intelligence Capital Indexed NAV</title>
-  <desc id="desc">Indexed NAV from April 1, 2026 to June 1, 2026, starting at 100, with May 1 month-end coordinate of 128.13 and June 1 month-end coordinate of 186.41.</desc>
+  <desc id="desc">Indexed NAV from April 1, 2026 to July 1, 2026, starting at 100, with monthly coordinates of 128.13 (May 1), 186.41 (Jun 1) and 171.01 (Jul 1).</desc>
   <rect width="1100" height="600" fill="#ffffff"/>
   <rect x="1" y="1" width="1098" height="598" fill="#ffffff" stroke="#d9deea"/>
   <text x="64" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="700" fill="#101827">Indexed NAV</text>
   <text x="64" y="98" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">Base 100 on Apr 1, 2026 - Monthly nodes - Account size not disclosed</text>
-  <text x="866" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">186.41</text>
-  <text x="866" y="94" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">May month-end record - Jun 1, 2026</text>
-
+  <text x="866" y="66" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0b2748">171.01</text>
+  <text x="866" y="94" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" fill="#647084">June month-end record - Jul 1, 2026</text>
   <line x1="96" y1="446" x2="1010" y2="446" stroke="#d9deea"/>
   <line x1="96" y1="371" x2="1010" y2="371" stroke="#e7eaf1"/>
   <line x1="96" y1="296" x2="1010" y2="296" stroke="#e7eaf1"/>
   <line x1="96" y1="221" x2="1010" y2="221" stroke="#e7eaf1"/>
   <line x1="96" y1="146" x2="1010" y2="146" stroke="#e7eaf1"/>
-
   <text x="50" y="451" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">100</text>
   <text x="50" y="376" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">125</text>
   <text x="50" y="301" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">150</text>
   <text x="50" y="226" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">175</text>
   <text x="50" y="151" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">200</text>
-
   <defs><linearGradient id="area" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#0b2748" stop-opacity="0.18"/><stop offset="100%" stop-color="#0b2748" stop-opacity="0"/></linearGradient></defs>
-  <path d="M 96 446 C 260 420, 390 380, 500 362 C 580 348, 650 240, 750 215 C 850 190, 930 178, 1010 171" fill="none" stroke="#0b2748" stroke-width="4" stroke-linecap="round"/>
-  <path d="M 96 446 C 260 420, 390 380, 500 362 C 580 348, 650 240, 750 215 C 850 190, 930 178, 1010 171 L 1010 446 L 96 446 Z" fill="url(#area)"/>
-
-  <circle cx="96" cy="446" r="6" fill="#0b2748"/>
-  <circle cx="500" cy="362" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
-  <circle cx="1010" cy="171" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
-
-  <text x="76" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">Apr 1</text>
-  <text x="470" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">May 1</text>
-  <text x="970" y="484" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084">Jun 1</text>
-  <text x="112" y="432" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#101827">100.00</text>
-  <text x="465" y="346" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">128.13</text>
-  <text x="924" y="155" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#101827">186.41</text>
-
-  <rect x="64" y="520" width="972" height="1" fill="#e7eaf1"/>
-  <text x="64" y="548" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#647084">Month-end coordinates use the prior month-end statement. Allocation history and NAV tracking remain independently verified against source records.</text>
-
+  <path d="M 96 446.0 C 217.9 446.0, 278.8 361.6, 400.7 361.6 C 522.5 361.6, 583.5 186.8, 705.3 186.8 C 827.2 186.8, 888.1 233.0, 1010.0 233.0" fill="none" stroke="#0b2748" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 96 446.0 C 217.9 446.0, 278.8 361.6, 400.7 361.6 C 522.5 361.6, 583.5 186.8, 705.3 186.8 C 827.2 186.8, 888.1 233.0, 1010.0 233.0 L 1010 446 L 96 446 Z" fill="url(#area)"/>
+  <circle cx="96.0" cy="446.0" r="6" fill="#0b2748"/>
+  <circle cx="400.7" cy="361.6" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
+  <circle cx="705.3" cy="186.8" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
+  <circle cx="1010.0" cy="233.0" r="7" fill="#bfa46a" stroke="#0b2748" stroke-width="3"/>
+  <text x="96.0" y="486" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084" text-anchor="start">Apr 1</text>
+  <text x="400.7" y="486" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084" text-anchor="middle">May 1</text>
+  <text x="705.3" y="486" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084" text-anchor="middle">Jun 1</text>
+  <text x="1010.0" y="486" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" fill="#647084" text-anchor="end">Jul 1</text>
 </svg>
